@@ -19,4 +19,7 @@ class Patient
       appointment.patient == self
     end
   end
+  
+  def
+  end
 end
