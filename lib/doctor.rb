@@ -21,7 +21,7 @@ class Doctor
   end
   
   def patients
-    appointment.all.select do |appointment|
+    appointment.collect do |appointment|
       appointment.patient
     end
   end
